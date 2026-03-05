@@ -1,6 +1,6 @@
-# Savitch "Absolute C++" (Chapters 1-6) Roadmap
+# Savitch "Absolute C++" (Chapters 1-10) Roadmap
 
-This roadmap maps the incremental exercises (`ex01.cpp` to `ex60.cpp`) to the core concepts of the first six chapters.
+This roadmap maps the incremental exercises (`ex01.cpp` to `ex80.cpp`) to the core concepts of the first ten chapters.
 
 ## Phase 1: Basic I/O & Control Flow (Chapters 1-3)
 | File | Concept | Chapter | Technical "Why" |
@@ -77,3 +77,27 @@ This roadmap maps the incremental exercises (`ex01.cpp` to `ex60.cpp`) to the co
 | `ex58.cpp` | `this` Pointer | Ch 6 | The `this` pointer refers to the current object instance. |
 | `ex59.cpp` | Const Member Funcs | Ch 6 | Const member functions guarantee they won't modify the object's state. |
 | `ex60.cpp` | Scope Resolution `::`| Ch 6 | The `::` operator is used to define member functions outside the class. |
+
+## Phase 5: Operator Overloading & Dynamic Memory (Chapters 8 & 10)
+| File | Concept | Chapter | Technical "Why" |
+| :--- | :--- | :--- | :--- |
+| `ex61.cpp` | Friend Functions | Ch 8 | Friend functions access private members without being member functions. |
+| `ex62.cpp` | Overloading `+` | Ch 8 | Binary operator overloading allows intuitive syntax for object combining. |
+| `ex63.cpp` | Overloading `-` | Ch 8 | Arithmetic overloading facilitates domain-specific logic like debt calculation. |
+| `ex64.cpp` | Overloading `==` | Ch 8 | Equality overloading is essential for generic algorithm compatibility. |
+| `ex65.cpp` | Overloading `<<` | Ch 8 | Streaming output enables standardized object visualization. |
+| `ex66.cpp` | Overloading `>>` | Ch 8 | Streaming input allows direct object population from streams. |
+| `ex67.cpp` | Overloading Unary `-` | Ch 8 | Unary operators can represent state negation like accounting debt. |
+| `ex68.cpp` | Overloading `[]` | Ch 8 | Subscript overloading provides safe access to internal collection data. |
+| `ex69.cpp` | Pointer Basics | Ch 10 | Pointers store memory addresses, enabling direct hardware interaction. |
+| `ex70.cpp` | Pointer to Class | Ch 10 | Object pointers are the foundation of dynamic memory and polymorphism. |
+| `ex71.cpp` | The Arrow Operator `->`| Ch 10 | The `->` operator is shorthand for dereferencing and member access. |
+| `ex72.cpp` | `this` Pointer Basics | Ch 10 | The `this` pointer allows an object to refer to itself explicitly. |
+| `ex73.cpp` | `this` for Chaining | Ch 10 | Returning `*this` allows for fluid, concatenated function calls. |
+| `ex74.cpp` | `new` Operator | Ch 10 | `new` allocates memory on the heap, persisting beyond scope. |
+| `ex75.cpp` | `delete` Operator | Ch 10 | `delete` prevents memory leaks by releasing heap-allocated memory. |
+| `ex76.cpp` | Dynamic Arrays | Ch 10 | Dynamic arrays allow run-time determination of collection sizes. |
+| `ex77.cpp` | Dynamic Object Arrays | Ch 10 | Arrays of objects on the heap require default constructors. |
+| `ex78.cpp` | Pointer Arithmetic | Ch 10 | Arithmetic on pointers facilitates manual memory traversal. |
+| `ex79.cpp` | Memory Leak Scenario | Ch 10 | Leaks occur when the last pointer to heap memory is lost. |
+| `ex80.cpp` | Destructor & `delete` | Ch 10 | Destructors automate cleanup of dynamic resources during object death. |
